@@ -1,5 +1,5 @@
 """
-ElectroRent AI - PostgreSQL Database Schema
+AI-Powered Electronics Rental and Revenue Intelligence - PostgreSQL Database Schema
 Production-ready relational database for electronic gadget rental platform
 """
 

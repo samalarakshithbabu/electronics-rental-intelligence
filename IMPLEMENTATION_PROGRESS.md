@@ -1,4 +1,4 @@
-# ElectroRent AI - Implementation Progress
+# AI-Powered Electronics Rental and Revenue Intelligence - Implementation Progress
 
 ## Completed ✓
 
@@ -54,11 +54,11 @@ npm run dev    # Runs on port 5173
 
 The system auto-initializes with SQLite for development:
 ```
-DATABASE_URL=sqlite:///electrorent.db
+DATABASE_URL=sqlite:///AI-Powered Electronics Rental.db
 ```
 
 For PostgreSQL:
 ```
-DATABASE_URL=postgresql://user:pass@localhost/electrorent
+DATABASE_URL=postgresql://user:pass@localhost/AI-Powered Electronics Rental
 pip install psycopg2-binary
 ```

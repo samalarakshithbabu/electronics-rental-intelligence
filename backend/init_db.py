@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ElectroRent AI - Database Initialization Script
+AI-Powered Electronics Rental and Revenue Intelligence - Database Initialization Script
 Run this script to initialize the SQLite database with all tables and sample data.
 """
 import os
@@ -14,7 +14,7 @@ from database.connection import db, init_database
 def main():
     """Initialize database and verify setup"""
     print("=" * 60)
-    print("ElectroRent AI - Database Initialization")
+    print("AI-Powered Electronics Rental and Revenue Intelligence - Database Initialization")
     print("=" * 60)
     
     # Initialize database

@@ -1,5 +1,5 @@
 /**
- * ElectroRent AI API Service
+ * AI-Powered Electronics Rental and Revenue Intelligence API Service
  * Centralized API client for backend communication
  */
 

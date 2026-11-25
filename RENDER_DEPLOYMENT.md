@@ -1,10 +1,10 @@
-# Deploying ElectroRent to Render
+# Deploying AI-Powered Electronics Rental to Render
 
-This guide provides step-by-step instructions to deploy the ElectroRent application on Render.
+This guide provides step-by-step instructions to deploy the AI-Powered Electronics Rental application on Render.
 
 ## Prerequisites
 
-1. A GitHub account with your ElectroRent project pushed to a repository
+1. A GitHub account with your AI-Powered Electronics Rental project pushed to a repository
 2. A Render account (you can sign up at [render.com](https://render.com))
 
 ## Deployment Steps
@@ -19,10 +19,10 @@ This guide provides step-by-step instructions to deploy the ElectroRent applicat
 
 3. **Connect Your Repository**:
    - Connect your GitHub account if you haven't already.
-   - Search for and select your ElectroRent repository.
+   - Search for and select your AI-Powered Electronics Rental repository.
 
 4. **Configure Your Site**:
-   - **Name**: Choose a name for your deployment (e.g., "electrorent").
+   - **Name**: Choose a name for your deployment (e.g., "AI-Powered Electronics Rental").
    - **Branch**: Choose the branch you want to deploy (typically "main" or "master").
    - **Build Command**: `npm install && npm run build`
    - **Publish Directory**: `dist`
@@ -40,7 +40,7 @@ This guide provides step-by-step instructions to deploy the ElectroRent applicat
    - Ensure that the `render.yaml` file is present in your repository.
    - Go to [dashboard.render.com/blueprints](https://dashboard.render.com/blueprints).
    - Click on "New Blueprint Instance".
-   - Connect to the GitHub repository containing your ElectroRent project.
+   - Connect to the GitHub repository containing your AI-Powered Electronics Rental project.
    - Render will automatically detect the `render.yaml` file and configure the deployment accordingly.
 
 2. **Review and Deploy**:

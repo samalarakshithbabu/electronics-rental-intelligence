@@ -176,7 +176,7 @@ def generate_synthetic_rentals(
 def main():
     """Main training function"""
     print("=" * 60)
-    print("ElectroRent AI - ML Model Training")
+    print("AI-Powered Electronics Rental and Revenue Intelligence - ML Model Training")
     print("=" * 60)
     print()
     

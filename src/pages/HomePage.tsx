@@ -132,7 +132,7 @@ export const HomePage = () => {
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 text-center mb-12">
-            How ElectroRental Works
+            How AI-Powered Electronics Rental Works
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -170,10 +170,10 @@ export const HomePage = () => {
                   ))}
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  "ElectroRental has completely changed how I access tech for my projects!"
+                  "AI-Powered Electronics Rental has completely changed how I access tech for my projects!"
                 </h3>
                 <p className="text-gray-700 mb-6">
-                  I needed a high-end camera for a weekend photoshoot but couldn't justify buying one. ElectroRental delivered a professional-grade Sony A7 III right to my doorstep. The rental process was seamless, and the equipment was in perfect condition. I'll definitely be using their service again!
+                  I needed a high-end camera for a weekend photoshoot but couldn't justify buying one. AI-Powered Electronics Rental delivered a professional-grade Sony A7 III right to my doorstep. The rental process was seamless, and the equipment was in perfect condition. I'll definitely be using their service again!
                 </p>
                 <div>
                   <p className="font-bold text-gray-900">Sarah Johnson</p>
@@ -183,7 +183,7 @@ export const HomePage = () => {
               <div className="hidden md:block">
                 <img 
                   src="https://mocha-cdn.com/0196d744-b64b-79b1-9c16-5cfc07e41b19/logo2.jpeg" 
-                  alt="Happy ElectroRental customer" 
+                  alt="Happy AI-Powered Electronics Rental customer" 
                   className="w-full h-full object-cover"
                 />
               </div>

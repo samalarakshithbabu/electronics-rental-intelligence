@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: electrorent
+    name: AI-Powered Electronics Rental
     env: static
     buildCommand: npm install && npm run build:prod
     staticPublishPath: ./dist

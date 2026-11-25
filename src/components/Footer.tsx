@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-white mb-4">ElectroRent</h3>
+            <h3 className="text-xl font-bold text-white mb-4">AI-Powered Electronics Rental</h3>
             <p className="text-gray-300 text-sm">
               Rent premium electronics without the commitment. Access the latest tech for your projects, events, or just to try before you buy.
             </p>
@@ -43,7 +43,7 @@ export const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© 2023 ElectroRental. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© 2023 AI-Powered Electronics Rental. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-indigo-400 transition">
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

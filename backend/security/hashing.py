@@ -1,5 +1,5 @@
 """
-ElectroRent AI - Password Security Module
+AI-Powered Electronics Rental and Revenue Intelligence - Password Security Module
 Implements bcrypt password hashing for secure credential storage
 """
 import bcrypt

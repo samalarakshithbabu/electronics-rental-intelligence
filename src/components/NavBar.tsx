@@ -1,5 +1,5 @@
 /**
- * ElectroRent AI - Navigation Bar
+ * AI-Powered Electronics Rental and Revenue Intelligence - Navigation Bar
  * Main navigation with authentication support
  */
 import { useState } from 'react';
@@ -47,7 +47,7 @@ const NavBar = () => {
               <span className="text-white font-bold text-xl">E</span>
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              ElectroRent AI
+              AI-Powered Electronics Rental and Revenue Intelligence
             </span>
           </Link>
 

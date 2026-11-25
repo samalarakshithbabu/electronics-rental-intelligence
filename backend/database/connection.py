@@ -1,5 +1,5 @@
 """
-ElectroRent AI - Database Connection Manager
+AI-Powered Electronics Rental and Revenue Intelligence - Database Connection Manager
 Supports PostgreSQL with SQLite fallback for development
 """
 import os
@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 # Database configuration - use absolute path for SQLite
 DB_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DB_PATH = os.path.join(DB_DIR, "electrorent.db")
+DB_PATH = os.path.join(DB_DIR, "AI-Powered Electronics Rental.db")
 DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{DB_PATH}")
 USE_POSTGRES = DATABASE_URL.startswith("postgresql")
 

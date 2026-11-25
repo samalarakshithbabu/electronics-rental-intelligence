@@ -1,5 +1,5 @@
 /**
- * ElectroRent AI - Authentication Context
+ * AI-Powered Electronics Rental and Revenue Intelligence - Authentication Context
  * Firebase Auth integration with FastAPI backend
  */
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';

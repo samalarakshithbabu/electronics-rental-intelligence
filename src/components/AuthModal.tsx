@@ -1,5 +1,5 @@
 /**
- * ElectroRent AI - Authentication Modal
+ * AI-Powered Electronics Rental and Revenue Intelligence - Authentication Modal
  * Login and registration with form validation
  */
 import { useState } from 'react';
@@ -109,7 +109,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, initialMode = 'l
               <p className="text-center text-gray-500 dark:text-gray-400 mt-2">
                 {mode === 'login' 
                   ? 'Sign in to access your rentals and preferences'
-                  : 'Join ElectroRent AI for smart rental experiences'}
+                  : 'Join AI-Powered Electronics Rental and Revenue Intelligence for smart rental experiences'}
               </p>
             </div>
             

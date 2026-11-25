@@ -11,7 +11,7 @@ load_dotenv()
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:postgres@localhost:5432/electrorent_ai"
+    "postgresql://postgres:postgres@localhost:5432/AI-Powered Electronics Rental_ai"
 )
 
 engine = create_engine(

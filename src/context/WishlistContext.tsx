@@ -15,12 +15,12 @@ const WishlistContext = createContext<WishlistContextType | undefined>(undefined
 
 export const WishlistProvider = ({ children }: { children: ReactNode }) => {
   const [wishlist, setWishlist] = useState<string[]>(() => {
-    const savedWishlist = localStorage.getItem('electroRentalWishlist');
+    const savedWishlist = localStorage.getItem('AI-Powered Electronics RentalWishlist');
     return savedWishlist ? JSON.parse(savedWishlist) : [];
   });
 
   useEffect(() => {
-    localStorage.setItem('electroRentalWishlist', JSON.stringify(wishlist));
+    localStorage.setItem('AI-Powered Electronics RentalWishlist', JSON.stringify(wishlist));
   }, [wishlist]);
 
   const addToWishlist = (productId: string) => {

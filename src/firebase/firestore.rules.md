@@ -1,6 +1,6 @@
 # Firestore Security Rules
 
-These are the security rules for the ElectroRental Firestore database. They control access to different collections and documents in the database.
+These are the security rules for the AI-Powered Electronics Rental Firestore database. They control access to different collections and documents in the database.
 
 ```
 rules_version = '2';

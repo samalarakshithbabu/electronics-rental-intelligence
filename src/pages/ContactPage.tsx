@@ -72,7 +72,7 @@ export const ContactPage = () => {
             
             <div className="mt-12">
               <iframe 
-                title="ElectroRental Location" 
+                title="AI-Powered Electronics Rental Location" 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15224.976623731325!2d78.37135422589475!3d17.44601431625698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dc8f5d20e3%3A0x7b529ad9febc696b!2sMadhapur%2C%20Hyderabad%2C%20Telangana%2C%20India!5e0!3m2!1sen!2sus!4v1642503834013!5m2!1sen!2sus" 
                 className="w-full h-64 rounded-lg border-0 shadow-md"
                 allowFullScreen

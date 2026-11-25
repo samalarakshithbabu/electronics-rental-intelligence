@@ -1,5 +1,5 @@
 """
-ElectroRent AI - JWT Authentication Module
+AI-Powered Electronics Rental and Revenue Intelligence - JWT Authentication Module
 Implements secure JWT token generation and validation
 """
 import jwt
@@ -14,7 +14,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 # Security configuration
-JWT_SECRET = os.getenv("JWT_SECRET", "electrorent-ai-change-in-production-2024!")
+JWT_SECRET = os.getenv("JWT_SECRET", "AI-Powered Electronics Rental-ai-change-in-production-2024!")
 JWT_ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
 TOKEN_EXPIRE_HOURS = int(os.getenv("TOKEN_EXPIRE_HOURS", "24"))
 

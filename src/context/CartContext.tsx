@@ -14,12 +14,12 @@ const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export const CartProvider = ({ children }: { children: ReactNode }) => {
   const [items, setItems] = useState<CartItem[]>(() => {
-    const savedCart = localStorage.getItem('electroRentalCart');
+    const savedCart = localStorage.getItem('AI-Powered Electronics RentalCart');
     return savedCart ? JSON.parse(savedCart) : [];
   });
 
   useEffect(() => {
-    localStorage.setItem('electroRentalCart', JSON.stringify(items));
+    localStorage.setItem('AI-Powered Electronics RentalCart', JSON.stringify(items));
   }, [items]);
 
   const addToCart = (item: CartItem) => {

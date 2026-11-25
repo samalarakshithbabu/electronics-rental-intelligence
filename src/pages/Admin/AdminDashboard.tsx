@@ -1,5 +1,5 @@
 /**
- * ElectroRent AI - Admin Dashboard
+ * AI-Powered Electronics Rental and Revenue Intelligence - Admin Dashboard
  * Premium analytics and business intelligence interface
  */
 import { useState, useEffect, useCallback } from 'react';
@@ -214,7 +214,7 @@ export const AdminDashboard = () => {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">ElectroRent AI Dashboard</h1>
+              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">AI-Powered Electronics Rental and Revenue Intelligence Dashboard</h1>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Smart Rental & Revenue Intelligence Platform
               </p>
@@ -615,7 +615,7 @@ export const AdminDashboard = () => {
 
         {/* Footer */}
         <div className="mt-8 text-center text-sm text-gray-500 dark:text-gray-400">
-          <p>Last updated: {lastUpdated.toLocaleTimeString()} | ElectroRent AI v1.0.0</p>
+          <p>Last updated: {lastUpdated.toLocaleTimeString()} | AI-Powered Electronics Rental and Revenue Intelligence v1.0.0</p>
         </div>
       </div>
     </div>

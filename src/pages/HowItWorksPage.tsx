@@ -5,7 +5,7 @@ export const HowItWorksPage = () => {
   return (
     <PageTransition>
     <div className="max-w-6xl mx-auto py-8 px-6">
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">How ElectroRental Works</h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-8">How AI-Powered Electronics Rental Works</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
         <div>
@@ -14,7 +14,7 @@ export const HowItWorksPage = () => {
             Renting electronics offers a cost-effective alternative to purchasing expensive gadgets 
             that you may only need temporarily. Whether you're a professional needing specialized 
             equipment for a project, a creator looking to try new gear, or someone who wants to test 
-            a product before committing to a purchase, ElectroRental provides a flexible solution.
+            a product before committing to a purchase, AI-Powered Electronics Rental provides a flexible solution.
           </p>
           <p className="text-gray-600">
             Our service allows you to access premium electronics without the full investment, 

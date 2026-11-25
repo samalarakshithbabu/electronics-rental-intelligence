@@ -1,10 +1,10 @@
-# ElectroRent - Render Deployment Guide
+# AI-Powered Electronics Rental - Render Deployment Guide
 
-This guide provides detailed steps to deploy the ElectroRent application on Render.
+This guide provides detailed steps to deploy the AI-Powered Electronics Rental application on Render.
 
 ## Prerequisites
 
-1. Your ElectroRent repository is pushed to GitHub (which you've already done)
+1. Your AI-Powered Electronics Rental repository is pushed to GitHub (which you've already done)
 2. A Render account (Sign up at [render.com](https://render.com) if you don't have one)
 
 ## Step 1: Sign in to Render
@@ -19,13 +19,13 @@ Go to [dashboard.render.com](https://dashboard.render.com) and sign in with your
 ## Step 3: Connect Your Repository
 
 1. Connect your GitHub account if prompted
-2. Search for and select your "ElectroRent" repository
+2. Search for and select your "AI-Powered Electronics Rental" repository
 
 ## Step 4: Configure Your Static Site
 
 Configure your static site with the following settings:
 
-- **Name**: `electrorent` (or your preferred name)
+- **Name**: `AI-Powered Electronics Rental` (or your preferred name)
 - **Branch**: `master` (or your main branch)
 - **Build Command**: `npm install && npm run build:prod`
 - **Publish Directory**: `dist`
@@ -66,7 +66,7 @@ Render will now start building and deploying your application. This process typi
 
 ## Step 9: Access Your Deployed Site
 
-Once the deployment is complete, Render will provide you with a URL (typically in the format `https://electrorent.onrender.com`). Click this URL to view your deployed application.
+Once the deployment is complete, Render will provide you with a URL (typically in the format `https://AI-Powered Electronics Rental.onrender.com`). Click this URL to view your deployed application.
 
 ## Additional Configuration
 

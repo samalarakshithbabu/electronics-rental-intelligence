@@ -1,6 +1,6 @@
-# Contributing to ElectroRent
+# Contributing to AI-Powered Electronics Rental
 
-Thank you for your interest in contributing to ElectroRent! We welcome contributions from everyone. This document provides guidelines and steps for contributing.
+Thank you for your interest in contributing to AI-Powered Electronics Rental! We welcome contributions from everyone. This document provides guidelines and steps for contributing.
 
 ## Code of Conduct
 
@@ -10,13 +10,13 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 ### Reporting Bugs
 
-1. Check the [Issues](https://github.com/KurraSaiKiran/ElectroRent/issues) page to see if the bug has already been reported.
+1. Check the [Issues](https://github.com/KurraSaiKiran/AI-Powered Electronics Rental/issues) page to see if the bug has already been reported.
 2. If not, create a new issue, providing detailed steps to reproduce the bug, expected behavior, and actual behavior.
 3. Include screenshots or error logs if possible.
 
 ### Suggesting Enhancements
 
-1. Check if the enhancement has already been suggested in the [Issues](https://github.com/KurraSaiKiran/ElectroRent/issues) page.
+1. Check if the enhancement has already been suggested in the [Issues](https://github.com/KurraSaiKiran/AI-Powered Electronics Rental/issues) page.
 2. If not, create a new issue describing the enhancement, its benefits, and any implementation ideas.
 
 ### Contributing Code
@@ -24,7 +24,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
 1. Fork the repository on GitHub.
 2. Clone your fork to your local machine: 
    ```bash
-   git clone https://github.com/yourusername/ElectroRent.git
+   git clone https://github.com/yourusername/AI-Powered Electronics Rental.git
    ```
 3. Create a new branch for your changes:
    ```bash
@@ -68,6 +68,6 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 ## License
 
-By contributing to ElectroRent, you agree that your contributions will be licensed under the project's MIT license.
+By contributing to AI-Powered Electronics Rental, you agree that your contributions will be licensed under the project's MIT license.
 
-Thank you for contributing to ElectroRent! 
+Thank you for contributing to AI-Powered Electronics Rental! 

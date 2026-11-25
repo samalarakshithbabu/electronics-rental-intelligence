@@ -1,5 +1,5 @@
 """
-ElectroRent AI - FastAPI Backend
+AI-Powered Electronics Rental and Revenue Intelligence - FastAPI Backend
 Production-ready backend with PostgreSQL/SQLite support and ML integration
 """
 import sys
@@ -38,7 +38,7 @@ logger = logging.getLogger(__name__)
 
 # Initialize FastAPI
 app = FastAPI(
-    title="ElectroRent AI API",
+    title="AI-Powered Electronics Rental and Revenue Intelligence API",
     description="Smart Rental & Revenue Intelligence Platform with ML",
     version="2.0.0"
 )
@@ -157,7 +157,7 @@ class ProductResponse(BaseModel):
 @app.on_event("startup")
 async def startup_event():
     """Initialize database and ML on startup"""
-    logger.info("Starting ElectroRent AI...")
+    logger.info("Starting AI-Powered Electronics Rental and Revenue Intelligence...")
     init_database()
     logger.info("Database initialized")
     
@@ -201,7 +201,7 @@ async def general_exception_handler(request, exc):
 @app.get("/")
 async def root():
     return {
-        "name": "ElectroRent AI API",
+        "name": "AI-Powered Electronics Rental and Revenue Intelligence API",
         "version": "2.0.0",
         "status": "running",
         "documentation": "/docs",

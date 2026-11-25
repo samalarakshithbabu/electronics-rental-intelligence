@@ -1,5 +1,5 @@
 """
-Automated Tests for ElectroRent AI Backend
+Automated Tests for AI-Powered Electronics Rental and Revenue Intelligence Backend
 Tests authentication, rentals, payments, and ML integration
 """
 import pytest
@@ -39,7 +39,7 @@ class TestAuthentication:
     def test_login_wrong_password(self):
         """Login with wrong password should fail"""
         response = client.post("/api/auth/login", json={
-            "email": "test@electrorent.com",
+            "email": "test@AI-Powered Electronics Rental.com",
             "password": "wrongpassword"
         })
         assert response.status_code == 401
@@ -72,7 +72,7 @@ class TestAuthentication:
         """JWT token creation should work"""
         token = create_access_token(
             user_id=1,
-            email="test@electrorent.com",
+            email="test@AI-Powered Electronics Rental.com",
             role="customer"
         )
         
@@ -84,7 +84,7 @@ class TestAuthentication:
         # Token should be decodable
         token_data = decode_token(token)
         assert token_data.user_id == 1
-        assert token_data.email == "test@electrorent.com"
+        assert token_data.email == "test@AI-Powered Electronics Rental.com"
         assert token_data.role == "customer"
 
 
@@ -125,7 +125,7 @@ class TestRentals:
         """Rental return should work with valid auth"""
         # First login
         login_response = client.post("/api/auth/login", json={
-            "email": "test@electrorent.com",
+            "email": "test@AI-Powered Electronics Rental.com",
             "password": "password123"
         })
         assert login_response.status_code == 200

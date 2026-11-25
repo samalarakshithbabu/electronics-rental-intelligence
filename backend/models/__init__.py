@@ -1,5 +1,5 @@
 """
-SQLAlchemy Database Models for ElectroRent AI
+SQLAlchemy Database Models for AI-Powered Electronics Rental and Revenue Intelligence
 """
 from sqlalchemy import Column, String, Integer, Float, Boolean, DateTime, Date, Text, ForeignKey, JSON, CheckConstraint, Index
 from sqlalchemy.dialects.postgresql import UUID, INET, JSONB

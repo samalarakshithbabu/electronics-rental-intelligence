@@ -20,7 +20,7 @@ export const useTheme = () => {
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [theme, setTheme] = useState<Theme>(() => {
     // Check localStorage first
-    const savedTheme = localStorage.getItem('electroRentalTheme');
+    const savedTheme = localStorage.getItem('AI-Powered Electronics RentalTheme');
     if (savedTheme && (savedTheme === 'light' || savedTheme === 'dark')) {
       return savedTheme;
     }
@@ -36,7 +36,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     // Save theme preference to localStorage
-    localStorage.setItem('electroRentalTheme', theme);
+    localStorage.setItem('AI-Powered Electronics RentalTheme', theme);
     
     // Apply theme to document
     if (theme === 'dark') {

@@ -1,6 +1,6 @@
 @echo off
-REM ElectroRent AI - Server Startup Script
-echo Starting ElectroRent AI servers...
+REM AI-Powered Electronics Rental and Revenue Intelligence - Server Startup Script
+echo Starting AI-Powered Electronics Rental and Revenue Intelligence servers...
 
 REM Start backend in background
 start /B python backend\main.py > backend\server.log 2>&1
