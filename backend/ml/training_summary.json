@@ -1,0 +1,38 @@
+{
+  "training_date": "2026-11-19",
+  "models": {
+    "demand_forecasting": {
+      "status": "trained",
+      "metrics": {
+        "mae": 1.16,
+        "rmse": 1.45,
+        "r2": 0.3204
+      },
+      "model_file": "backend/ml/models/demand_forecaster.joblib"
+    },
+    "customer_segmentation": {
+      "status": "trained",
+      "metrics": {
+        "silhouette_score": 0.2234,
+        "n_customers": 100,
+        "n_clusters": 4
+      },
+      "model_file": "backend/ml/models/customer_segmenter.joblib"
+    },
+    "product_recommendations": {
+      "status": "trained",
+      "metrics": {
+        "n_products": 30,
+        "n_features": 6,
+        "avg_similarity": 0.7505
+      },
+      "model_file": "backend/ml/models/product_recommender.joblib"
+    }
+  },
+  "data_summary": {
+    "n_products": 30,
+    "n_customers": 100,
+    "n_rentals": 500,
+    "demand_records": 365
+  }
+}
