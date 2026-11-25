@@ -87,4 +87,4 @@ MIT
 ```
 
 ## Author
-Saikiran Kurra
+Samala Rakshith Babu
