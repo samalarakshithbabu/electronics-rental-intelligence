@@ -1,6 +1,72 @@
 # Electronics Rental Intelligence Platform
 
+[![GitHub stars](https://img.shields.io/github/stars/samalarakshithbabu/electronics-rental-intelligence)](https://github.com/samalarakshithbabu/electronics-rental-intelligence/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/samalarakshithbabu/electronics-rental-intelligence)](https://github.com/samalarakshithbabu/electronics-rental-intelligence/network)
+[![GitHub issues](https://img.shields.io/github/issues/samalarakshithbabu/electronics-rental-intelligence)](https://github.com/samalarakshithbabu/electronics-rental-intelligence/issues)
+[![GitHub license](https://img.shields.io/github/license/samalarakshithbabu/electronics-rental-intelligence)](https://github.com/samalarakshithbabu/electronics-rental-intelligence/blob/main/LICENSE)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![React](https://img.shields.io/badge/React-18-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+
 Smart electronics rental platform with ML-driven demand forecasting, dynamic pricing, and revenue intelligence.
+
+---
+
+## Architecture
+
+```mermaid
+flowchart TB
+    subgraph Frontend Layer
+        React[React + TypeScript]
+        Vite[Vite Build Tool]
+        Tailwind[Tailwind CSS]
+        Recharts[Recharts Dashboard]
+    end
+
+    subgraph API Gateway
+        FastAPI[FastAPI Backend]
+        CORS[CORS Config]
+        JWT[JWT Auth]
+    end
+
+    subgraph Backend Services
+        Auth[Authentication]
+        Products[Product CRUD]
+        Rentals[Rental Management]
+        Analytics[Analytics API]
+    end
+
+    subgraph ML Models
+        Forecast[Demand Forecast]
+        Pricing[Pricing Engine]
+        Segment[Customer Segmentation]
+    end
+
+    subgraph Data Layer
+        SQLite[(SQLite Dev)]
+        Postgres[(PostgreSQL Prod)]
+    end
+
+    React --> FastAPI
+    Vite --> React
+    Tailwind --> React
+    Recharts --> React
+
+    FastAPI --> Auth
+    FastAPI --> Products
+    FastAPI --> Rentals
+    FastAPI --> Analytics
+
+    Auth --> JWT
+    Products --> DataLayer
+    Rentals --> DataLayer
+    Analytics --> DataLayer
+
+    Analytics --> Forecast
+    Analytics --> Pricing
+    Analytics --> Segment
+```
 
 ---
 
